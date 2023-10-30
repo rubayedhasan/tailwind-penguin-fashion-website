@@ -15,7 +15,7 @@
     <header class="bg-orange-100 px-5 md:px-0">
       <div class="container mx-auto">
         <nav
-          class="pt-8 flex flex-col md:flex-row md:justify-between md:items-center"
+          class="pt-8 pb-7 md:pb-0 flex flex-col md:flex-row md:justify-around md:items-center"
         >
           <div class="brand-logo">
             <a href="">
@@ -30,23 +30,56 @@
             class="flex flex-col md:flex-row md:justify-around md:space-x-12 space-y-1 md:space-y-0"
           >
             <li class="text-center py-2 bg-orange-50 md:bg-inherit">
-              <a class="text-lg font-semibold text-[#3c3c3c]" href="">Home</a>
+              <a class="text-lg font-medium text-[#3c3c3c]" href="">Home</a>
             </li>
             <li class="text-center py-2 mt-2.5 bg-orange-50 md:bg-inherit">
-              <a class="text-lg font-semibold text-[#3c3c3c]" href=""
-                >Product</a
-              >
+              <a class="text-lg font-medium text-[#3c3c3c]" href="">Product</a>
             </li>
             <li class="text-center py-2 mt-2.5 bg-orange-50 md:bg-inherit">
-              <a class="text-lg font-semibold text-[#3c3c3c]" href="">About</a>
+              <a class="text-lg font-medium text-[#3c3c3c]" href="">About</a>
             </li>
             <li class="text-center py-2 mt-2.5 bg-orange-50 md:bg-inherit">
-              <a class="text-lg font-semibold text-[#3c3c3c]" href=""
-                >Contact</a
-              >
+              <a class="text-lg font-medium text-[#3c3c3c]" href="">Contact</a>
             </li>
           </ul>
         </nav>
+
+        <!-- banner section  -->
+        <div
+          class="banner flex flex-col md:flex-row md:justify-evenly md:items-center pb-2 md:pb-0 md:h-screen space-y-10 md:space-y-0"
+        >
+          <div class="banner-description">
+            <h1 class="banner-title uppercase text-black font-normal text-7xl">
+              <span class="text-yellow-400">Be the Penguins</span>
+              <br />
+              of Winter
+            </h1>
+            <p class="banner-text text-[#3E3E3E] font-normal text-base my-4">
+              Lorem Ipsum is simply dummy text of the printing <br />
+              and typesetting industry.
+            </p>
+            <button
+              type="button"
+              class="banner-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="w-6 h-6 inline mr-2"
+              >
+                <path
+                  d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                />
+              </svg>
+
+              BUY NOW
+            </button>
+          </div>
+          <div class="banner-image text-center">
+            <img src="images/image/model.png" alt="model" />
+          </div>
+        </div>
       </div>
     </header>
 
