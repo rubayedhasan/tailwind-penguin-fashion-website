@@ -15,19 +15,15 @@ li {
   list-style: none;
 }
 
-body {
-  font-family: "Bebas Neue", sans-serif;
-  font-family: "Roboto", sans-serif;
-}
-
-/* header section styles*/
+/* common styles*/
 nav ul li a,
 .banner-text,
 .primary-btn,
 .card-title,
 .card-text,
 .feature-sub-title,
-.feature-text {
+.feature-text,
+.footer-text {
   font-family: "Roboto", sans-serif;
 }
 
