@@ -25,7 +25,9 @@ nav ul li a,
 .banner-text,
 .primary-btn,
 .card-title,
-.card-text {
+.card-text,
+.feature-sub-title,
+.feature-text {
   font-family: "Roboto", sans-serif;
 }
 
