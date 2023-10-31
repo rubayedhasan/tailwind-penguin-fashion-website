@@ -7,6 +7,20 @@
     <!-- Tailwind CSS styles sheet -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- tailwind custom  -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              price: "#FABE4C",
+            },
+          },
+        },
+      };
+    </script>
+
     <!-- css style sheet  -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -60,7 +74,7 @@
             </p>
             <button
               type="button"
-              class="banner-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
+              class="primary-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +98,124 @@
     </header>
 
     <!-- main section  -->
-    <main></main>
+    <main class="container mx-auto">
+      <!-- women-jacket section  -->
+      <section class="women-jacket mt-12">
+        <h3 class="section-title text-5xl font-normal text-[#363958] mb-8">
+          Women Jacket
+        </h3>
+        <!-- jacket card section  -->
+        <div
+          class="card-jacket grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+        >
+          <!-- jacket 1st card  -->
+          <div class="card p-5 rounded-xl shadow-lg">
+            <div class="card-image p-5 text-center bg-slate-100 rounded-xl">
+              <img src="images/image/jacket-1.png" alt="jacket" class="" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title text-2xl font-bold text-[#363958] mt-3.5">
+                Yellow Coat Jacket
+              </h4>
+              <p class="card-text font-normal text-base text-[#3e3e3e] my-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex justify-between items-center">
+                <p class="font-black text-4xl text-price">$234</p>
+                <button
+                  type="button"
+                  class="primary-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 inline mr-2"
+                  >
+                    <path
+                      d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    />
+                  </svg>
+
+                  BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- jacket 2nd card  -->
+          <div class="card p-5 rounded-xl shadow-lg">
+            <div class="card-image p-5 text-center bg-slate-100 rounded-xl">
+              <img src="images/image/jacket-2.png" alt="jacket" class="" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title text-2xl font-bold text-[#363958] mt-3.5">
+                Yellow Coat Jacket
+              </h4>
+              <p class="card-text font-normal text-base text-[#3e3e3e] my-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex justify-between items-center">
+                <p class="font-black text-4xl text-price">$234</p>
+                <button
+                  type="button"
+                  class="primary-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 inline mr-2"
+                  >
+                    <path
+                      d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    />
+                  </svg>
+
+                  BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- jacket 3rd card  -->
+          <div class="card p-5 rounded-xl shadow-lg">
+            <div class="card-image p-5 text-center bg-slate-100 rounded-xl">
+              <img src="images/image/jacket-3.png" alt="jacket" class="" />
+            </div>
+            <div class="card-body">
+              <h4 class="card-title text-2xl font-bold text-[#363958] mt-3.5">
+                Yellow Coat Jacket
+              </h4>
+              <p class="card-text font-normal text-base text-[#3e3e3e] my-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <div class="flex justify-between items-center">
+                <p class="font-black text-4xl text-price">$234</p>
+                <button
+                  type="button"
+                  class="primary-btn text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] py-5 px-8 rounded-lg"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                    class="w-6 h-6 inline mr-2"
+                  >
+                    <path
+                      d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z"
+                    />
+                  </svg>
+
+                  BUY NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- footer section  -->
     <footer></footer>
